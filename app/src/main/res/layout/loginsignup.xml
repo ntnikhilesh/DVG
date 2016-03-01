@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dip"
+    android:background="@color/backgr">
+
+    <TextView
+        android:id="@+id/txtusername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/Username"
+        android:textColor="@color/fontcolo"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtusername"
+        android:inputType="text"
+        android:background="@color/edittcolor"
+        android:textColor="@color/fontcolo"
+        android:textColorHint="@color/hintco"/>
+
+    <TextView
+        android:id="@+id/txtpassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:text="@string/Password"
+        android:textColor="@color/fontcolo"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtpassword"
+        android:inputType="textPassword"
+        android:background="@color/edittcolor"
+        android:textColor="@color/fontcolo"
+        android:textColorHint="@color/hintco"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/LoginBtn"
+        android:background="@color/bcolor"
+        android:textColor="@color/butTextco"
+        android:layout_above="@+id/signup"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SignupBtn"
+        android:background="@color/colorAccent"
+        android:textColor="@color/butTextco"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

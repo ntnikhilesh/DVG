@@ -1,0 +1,60 @@
+{
+  "project_info": {
+    "project_id": "maptagdemo",
+    "project_number": "187228898752",
+    "name": "MaptagDemo"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187228898752:android:9d7076c2491de38d",
+        "client_id": "android:com.example.nikhiltr.swahgaura_parivar",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.nikhiltr.swahgaura_parivar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187228898752-6dh5rrjvdl4q0a2hc34jabrqmmbudkf2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nikhiltr.swahgaura_parivar",
+            "certificate_hash": "159590020BBC98682DBD02564065969240E21CFD"
+          }
+        },
+        {
+          "client_id": "187228898752-gp1ivrgdd52l60pailu7rrljumeqfmdp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187228898752-gp1ivrgdd52l60pailu7rrljumeqfmdp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

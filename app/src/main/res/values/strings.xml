@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SWAHGAURA-PARIVAR</string>
+    <string name="action_settings">Logout</string>
+
+
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="LoginBtn">Login</string>
+    <string name="SignupBtn">SignUp</string>
+
+
+    <string name="Welcome">Welcome!</string>
+    <string name="LogoutBtn">Logout</string>
+    <string name="title_activity_game1">Game1Activity</string>
+    <string name="title_activity_looser">Looser</string>
+    <string name="title_activity_game2">Game2</string>
+    <string name="title_activity_sign_up">SignUp</string>
+
+
+</resources>
